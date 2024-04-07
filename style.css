@@ -31,14 +31,43 @@ h2::before {
     letter-spacing: 1px;
     color: #fff;
     background-color: red;
+}
 
+.product-container {
+    display: flex;
+    gap: 25px;
+}
 
-    
+.price-shipping {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+img {
+   /* float: left*/
 
 }
+.product-info {
+    margin-top: 20px
+   /* width: 245px;
+    float: left;
+    margin-left: 40px;
+    ;*/
+
+}
+/*.product-details {
+    width: 245px;
+    float: right;
+    margin-top: 5px;*/
+
+}
+
 .price {
     font-size: 20px;
     font-weight: bold;
+    
+   /* float: left;*/
 }
 .shipping {
     color:rgba(44, 49, 45, 0.774);
@@ -46,6 +75,10 @@ h2::before {
     font-size: small;
     font-size: 12px;
     margin-bottom: 20px;
+    margin-top: 3px;
+   /* margin-left: 100px;*/
+    
+    
 }
 a;link {
     margin-top: 20px;
